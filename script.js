@@ -439,7 +439,7 @@ let graphInterval=null;
 async function runFullTest(){
   const startBtn=$('startBtn');
   startBtn.disabled=true;
-  showPanel('testPanel');
+  showPanel('test');
   graphSamples=[];
   renderPhaseList(0,0);
   setProgress(2); setGauge(0); setDirection(null); setPhaseLabel('Checking Connection');
