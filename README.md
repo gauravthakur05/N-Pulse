@@ -7,7 +7,7 @@ A premium, single-file web app that measures your real internet speed and tells 
 
 **[Open NetPulse Live →](https://netpulse-lake.vercel.app/)**
 
-**Files:** `index.html` · `styles.css` · `script.js`
+
 
 ---
 
