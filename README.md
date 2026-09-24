@@ -1,4 +1,4 @@
-# Pulse : Internet Speed & Network Health Monitor
+# NetPulse — Internet Speed & Network Health Monitor
 
 A premium, single-file web app that measures your real internet speed and tells you how healthy and stable your connection is. No sign-up, no backend, no fake numbers.
 

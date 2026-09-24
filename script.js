@@ -14,7 +14,6 @@ function applyTheme(t){
     : '<path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"/>';
   refreshCharts();
 }
-applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
 document.getElementById('themeToggle').addEventListener('click', ()=>{
   applyTheme(document.documentElement.getAttribute('data-theme')==='dark' ? 'light' : 'dark');
 });
@@ -33,6 +32,10 @@ document.querySelectorAll('nav.primary button').forEach(btn=>{
     if(btn.dataset.view==='network') loadNetworkInfo();
   });
 });
+
+// Apply saved/default theme now that `views` exists (refreshCharts reads it).
+applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
+
 
 /* ======================================================================
    UTILITIES
