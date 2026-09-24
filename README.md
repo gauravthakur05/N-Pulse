@@ -2,6 +2,10 @@
 
 A premium, single-file web app that measures your real internet speed and tells you how healthy and stable your connection is. No sign-up, no backend, no fake numbers.
 
+## 🌐 Live Demo
+
+**[Open NetPulse Live →](https://netpulse-lake.vercel.app/)**
+
 **Files:** `index.html` · `styles.css` · `script.js`
 
 ---
